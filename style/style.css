@@ -1,0 +1,1138 @@
+/**, *:before, *:after {*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*html {*/
+    /*overflow-y: scroll;*/
+/*}*/
+
+/*body {*/
+    /*background: #c1bdba;*/
+    /*font-family: 'Titillium Web', sans-serif;*/
+/*}*/
+
+/*a {*/
+    /*text-decoration: none;*/
+    /*color: #1ab188;*/
+    /*-webkit-transition: .5s ease;*/
+    /*transition: .5s ease;*/
+/*}*/
+/*a:hover {*/
+    /*color: #179b77;*/
+/*}*/
+
+/*.form {*/
+    /*background: rgba(19, 35, 47, 0.9);*/
+    /*padding: 40px;*/
+    /*max-width: 600px;*/
+    /*margin: 40px auto;*/
+    /*border-radius: 4px;*/
+    /*box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);*/
+/*}*/
+
+/*.tab-group {*/
+    /*list-style: none;*/
+    /*padding: 0;*/
+    /*margin: 0 0 40px 0;*/
+/*}*/
+/*.tab-group:after {*/
+    /*content: "";*/
+    /*display: table;*/
+    /*clear: both;*/
+/*}*/
+/*.tab-group li a {*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+    /*padding: 15px;*/
+    /*background: rgba(160, 179, 176, 0.25);*/
+    /*color: #a0b3b0;*/
+    /*font-size: 20px;*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*-webkit-transition: .5s ease;*/
+    /*transition: .5s ease;*/
+/*}*/
+/*.tab-group li a:hover {*/
+    /*background: #179b77;*/
+    /*color: #ffffff;*/
+/*}*/
+/*.tab-group .active a {*/
+    /*background: #b11a1a;*/
+    /*color: #ffffff;*/
+/*}*/
+
+/*.tab-content > div:last-child {*/
+    /*display: none;*/
+/*}*/
+
+/*h1 {*/
+    /*text-align: center;*/
+    /*color: #faebd7;*/
+    /*font-weight: 300;*/
+    /*margin: 0 0 40px;*/
+/*}*/
+
+/*label {*/
+    /*position: absolute;*/
+    /*-webkit-transform: translateY(6px);*/
+    /*transform: translateY(6px);*/
+    /*left: 13px;*/
+    /*color: rgba(255, 255, 255, 0.5);*/
+    /*-webkit-transition: all 0.25s ease;*/
+    /*transition: all 0.25s ease;*/
+    /*-webkit-backface-visibility: hidden;*/
+    /*pointer-events: none;*/
+    /*font-size: 22px;*/
+/*}*/
+/*label .req {*/
+    /*margin: 2px;*/
+    /*color: #1ab188;*/
+/*}*/
+
+/*label.active {*/
+    /*-webkit-transform: translateY(50px);*/
+    /*transform: translateY(50px);*/
+    /*left: 2px;*/
+    /*font-size: 14px;*/
+/*}*/
+/*label.active .req {*/
+    /*opacity: 0;*/
+/*}*/
+
+/*label.highlight {*/
+    /*color: #ffffff;*/
+/*}*/
+
+/*input, textarea {*/
+    /*font-size: 22px;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*padding: 5px 10px;*/
+    /*background: none;*/
+    /*background-image: none;*/
+    /*border: 1px solid #a0b3b0;*/
+    /*color: #ffffff;*/
+    /*border-radius: 0;*/
+    /*-webkit-transition: border-color .25s ease, box-shadow .25s ease;*/
+    /*transition: border-color .25s ease, box-shadow .25s ease;*/
+/*}*/
+/*input:focus, textarea:focus {*/
+    /*outline: 0;*/
+    /*border-color: #1ab188;*/
+/*}*/
+
+/*textarea {*/
+    /*border: 2px solid #a0b3b0;*/
+    /*resize: vertical;*/
+/*}*/
+
+/*.field-wrap {*/
+    /*position: relative;*/
+    /*margin-bottom: 40px;*/
+/*}*/
+
+/*.top-row:after {*/
+    /*content: "";*/
+    /*display: table;*/
+    /*clear: both;*/
+/*}*/
+/*.top-row > div {*/
+    /*float: left;*/
+    /*width: 48%;*/
+    /*margin-right: 4%;*/
+/*}*/
+/*.top-row > div:last-child {*/
+    /*margin: 0;*/
+/*}*/
+
+/*.button {*/
+    /*border: 0;*/
+    /*outline: none;*/
+    /*border-radius: 0;*/
+    /*padding: 15px 0;*/
+    /*font-size: 2rem;*/
+    /*font-weight: 600;*/
+    /*text-transform: uppercase;*/
+    /*letter-spacing: .1em;*/
+    /*background: #1ab188;*/
+    /*color: #ffffff;*/
+    /*-webkit-transition: all 0.5s ease;*/
+    /*transition: all 0.5s ease;*/
+    /*-webkit-appearance: none;*/
+/*}*/
+/*.button:hover, .button:focus {*/
+    /*background: #179b77;*/
+/*}*/
+
+/*.button-block {*/
+    /*display: block;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.forgot {*/
+    /*margin-top: -20px;*/
+    /*text-align: right;*/
+/*}*/
+
+/*!**/
+/*******************************************/
+
+/*ANOTHER SET FROM CSS SELECT*/
+
+
+/**!*/
+
+/*!* Default custom select styles *!*/
+/*div.cs-select {*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*position: relative;*/
+    /*text-align: left;*/
+    /*background: #fff;*/
+    /*z-index: 100;*/
+    /*width: 100%;*/
+    /*max-width: 500px;*/
+    /*-webkit-touch-callout: none;*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+/*}*/
+
+/*div.cs-select:focus {*/
+    /*outline: none; !* For better accessibility add a style for this in your skin *!*/
+/*}*/
+
+/*.cs-select select {*/
+    /*display: none;*/
+/*}*/
+
+/*.cs-select span {*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*cursor: pointer;*/
+    /*padding: 1em;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+/*}*/
+
+/*!* Placeholder and selected option *!*/
+/*.cs-select > span {*/
+    /*padding-right: 3em;*/
+/*}*/
+
+/*.cs-select > span::after,*/
+/*.cs-select .cs-selected span::after {*/
+    /*speak: none;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*.cs-select > span::after {*/
+    /*content: '\25BE';*/
+    /*right: 1em;*/
+/*}*/
+
+/*.cs-select .cs-selected span::after {*/
+    /*content: '\2713';*/
+    /*margin-left: 1em;*/
+/*}*/
+
+/*.cs-select.cs-active > span::after {*/
+    /*-webkit-transform: translateY(-50%) rotate(180deg);*/
+    /*transform: translateY(-50%) rotate(180deg);*/
+/*}*/
+
+/*div.cs-active {*/
+    /*z-index: 200;*/
+/*}*/
+
+/*!* Options *!*/
+/*.cs-select .cs-options {*/
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*background: #fff;*/
+    /*visibility: hidden;*/
+/*}*/
+
+/*.cs-select.cs-active .cs-options {*/
+    /*visibility: visible;*/
+/*}*/
+
+/*.cs-select ul {*/
+    /*list-style: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.cs-select ul span {*/
+    /*padding: 1em;*/
+/*}*/
+
+/*.cs-select ul li.cs-focus span {*/
+    /*background-color: #ddd;*/
+/*}*/
+
+/*!* Optgroup and optgroup label *!*/
+/*.cs-select li.cs-optgroup ul {*/
+    /*padding-left: 1em;*/
+/*}*/
+
+/*.cs-select li.cs-optgroup > span {*/
+    /*cursor: default;*/
+/*}*/
+
+
+/*!**/
+/*******************************************/
+
+/*ANOTHER SET FROM CSS UNDERLINE*/
+
+
+/**!*/
+
+/*@font-face {*/
+    /*font-family: 'icomoon';*/
+    /*src:url('../fonts/icomoon/icomoon.eot?-rdnm34');*/
+    /*src:url('../fonts/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),*/
+    /*url('../fonts/icomoon/icomoon.woff?-rdnm34') format('woff'),*/
+    /*url('../fonts/icomoon/icomoon.ttf?-rdnm34') format('truetype'),*/
+    /*url('../fonts/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
+
+/*div.cs-skin-underline {*/
+    /*background: transparent;*/
+    /*font-size: 1.8em;*/
+    /*max-width: 400px;*/
+/*}*/
+
+/*@media screen and (max-width: 30em) {*/
+    /*div.cs-skin-underline { font-size: 1.2em; }*/
+/*}*/
+
+/*.cs-skin-underline > span {*/
+    /*padding: 0.5em 3em 0.5em 0.5em;*/
+    /*border-bottom: 3px solid #000;*/
+    /*border-color: inherit;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*.cs-skin-underline > span::after {*/
+    /*font-family: 'icomoon';*/
+    /*content: '\e003';*/
+    /*right: 0.25em;*/
+    /*-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);*/
+    /*transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);*/
+    /*-webkit-transition: -webkit-transform 0.5s;*/
+    /*transition: transform 0.5s;*/
+/*}*/
+
+/*.cs-skin-underline.cs-active > span::after {*/
+    /*-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);*/
+    /*transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);*/
+/*}*/
+
+/*.cs-skin-underline .cs-options {*/
+    /*background: #bbc7c8;*/
+    /*opacity: 0;*/
+    /*-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;*/
+    /*transition: opacity 0.3s 0.4s, visibility 0s 0.7s;*/
+/*}*/
+
+/*.cs-skin-underline.cs-active .cs-options {*/
+    /*opacity: 1;*/
+    /*-webkit-transition: opacity 0.3s;*/
+    /*transition: opacity 0.3s;*/
+/*}*/
+
+/*.cs-skin-underline ul span {*/
+    /*position: relative;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 66%;*/
+    /*font-weight: 700;*/
+    /*letter-spacing: 1px;*/
+    /*padding: 1.2em 0.8em;*/
+    /*opacity: 0;*/
+    /*-webkit-transform: translate3d(100%,0,0);*/
+    /*transform: translate3d(100%,0,0);*/
+    /*-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;*/
+    /*transition: opacity 0.3s, transform 0.3s;*/
+/*}*/
+
+/*.cs-select ul span::after {*/
+    /*content: '';*/
+    /*opacity: 0;*/
+/*}*/
+
+/*.cs-select .cs-selected span::after {*/
+    /*font-family: 'icomoon';*/
+    /*content: '\e010';*/
+    /*opacity: 1;*/
+    /*-webkit-transition: opacity 0.3s 0.7s;*/
+    /*transition: opacity 0.3s 0.7s;*/
+/*}*/
+
+/*.cs-skin-underline ul span::before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*bottom: 1px;*/
+    /*left: 0;*/
+    /*height: 3px;*/
+    /*width: 100%;*/
+    /*background-color: #fff;*/
+    /*-webkit-transform: translate3d(200%,0,0);*/
+    /*transform: translate3d(200%,0,0);*/
+    /*-webkit-transition: -webkit-transform 0.3s;*/
+    /*transition: transform 0.3s;*/
+/*}*/
+
+/*.cs-skin-underline.cs-active ul span,*/
+/*.cs-skin-underline.cs-active ul span::before {*/
+    /*opacity: 1;*/
+    /*-webkit-transform: translate3d(0,0,0);*/
+    /*transform: translate3d(0,0,0);*/
+/*}*/
+
+/*.cs-skin-underline li:nth-child(5) span,*/
+/*.cs-skin-underline li:nth-child(5) span::before,*/
+/*.cs-skin-underline.cs-active li:first-child span,*/
+/*.cs-skin-underline.cs-active li:first-child span::before {*/
+    /*-webkit-transition-delay: 0s;*/
+    /*transition-delay: 0s;*/
+/*}*/
+
+/*.cs-skin-underline li:nth-child(4) span,*/
+/*.cs-skin-underline li:nth-child(4) span::before,*/
+/*.cs-skin-underline.cs-active li:nth-child(2) span,*/
+/*.cs-skin-underline.cs-active li:nth-child(2) span::before {*/
+    /*-webkit-transition-delay: 0.05s;*/
+    /*transition-delay: 0.05s;*/
+/*}*/
+
+/*.cs-skin-underline li:nth-child(3) span,*/
+/*.cs-skin-underline li:nth-child(3) span::before {*/
+    /*-webkit-transition-delay: 0.1s;*/
+    /*transition-delay: 0.1s;*/
+/*}*/
+
+/*.cs-skin-underline li:nth-child(2) span,*/
+/*.cs-skin-underline li:nth-child(2) span::before,*/
+/*.cs-skin-underline.cs-active li:nth-child(4) span,*/
+/*.cs-skin-underline.cs-active li:nth-child(4) span::before {*/
+    /*-webkit-transition-delay: 0.15s;*/
+    /*transition-delay: 0.15s;*/
+/*}*/
+
+/*.cs-skin-underline li:first-child span,*/
+/*.cs-skin-underline li:first-child span::before,*/
+/*.cs-skin-underline.cs-active li:nth-child(5) span,*/
+/*.cs-skin-underline.cs-active li:nth-child(5) span::before {*/
+    /*-webkit-transition-delay: 0.2s;*/
+    /*transition-delay: 0.2s;*/
+/*} !* more items require more delay declarations *!*/
+
+/*.cs-skin-underline .cs-options li span:hover,*/
+/*.cs-skin-underline .cs-options li.cs-focus span,*/
+/*.cs-skin-underline li.cs-selected span {*/
+    /*color: #566473;*/
+    /*background: transparent;*/
+/*}*/
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: #c1bdba;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1ab188;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+a:hover {
+    color: #179b77;
+}
+
+.form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.tab-group li a:hover {
+    background: #179b77;
+    color: #ffffff;
+}
+.tab-group .active a {
+    background: #1ab188;
+    color: #ffffff;
+}
+
+.tab-content > div:last-child {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+label {
+    position: absolute;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+}
+label .req {
+    margin: 2px;
+    color: #1ab188;
+}
+
+label.active {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    left: 2px;
+    font-size: 14px;
+}
+label.active .req {
+    opacity: 0;
+}
+
+label.highlight {
+    color: #ffffff;
+}
+
+input, textarea {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+    border-color: #1ab188;
+}
+
+textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+
+.field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.top-row > div:last-child {
+    margin: 0;
+}
+
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+    background: #179b77;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+}
+
+/*
+*****************************************
+
+ANOTHER SET FROM CSS SELECT
+
+
+*/
+
+/* Default custom select styles */
+div.cs-select {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+    background: #fff;
+    z-index: 100;
+    width: 100%;
+    max-width: 500px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.cs-select:focus {
+    outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+    display: none;
+}
+
+.cs-select span {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Placeholder and selected option */
+.cs-select > span {
+    padding-right: 3em;
+}
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+    speak: none;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+    content: '\25BE';
+    right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+    content: '\2713';
+    margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after {
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
+}
+
+div.cs-active {
+    z-index: 200;
+}
+
+/* Options */
+.cs-select .cs-options {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+    visibility: visible;
+}
+
+.cs-select ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.cs-select ul span {
+    padding: 1em;
+}
+
+.cs-select ul li.cs-focus span {
+    background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+    padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span {
+    cursor: default;
+}
+
+
+/*
+*****************************************
+
+ANOTHER SET FROM CSS UNDERLINE
+
+
+*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/icomoon.eot?-rdnm34');
+    src:url('../fonts/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff?-rdnm34') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.cs-skin-underline {
+    background: transparent;
+    font-size: 1.8em;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 30em) {
+    div.cs-skin-underline { font-size: 1.2em; }
+}
+
+.cs-skin-underline > span {
+    padding: 0.5em 3em 0.5em 0.5em;
+    border-bottom: 3px solid #000;
+    border-color: inherit;
+    font-weight: bold;
+}
+
+.cs-skin-underline > span::after {
+    font-family: 'icomoon';
+    content: '\e003';
+    right: 0.25em;
+    -webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+    transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.cs-skin-underline.cs-active > span::after {
+    -webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+    transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+}
+
+.cs-skin-underline .cs-options {
+    background: #bbc7c8;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+    transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+}
+
+.cs-skin-underline.cs-active .cs-options {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.cs-skin-underline ul span {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 66%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1.2em 0.8em;
+    opacity: 0;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.cs-select ul span::after {
+    content: '';
+    opacity: 0;
+}
+
+.cs-select .cs-selected span::after {
+    font-family: 'icomoon';
+    content: '\e010';
+    opacity: 1;
+    -webkit-transition: opacity 0.3s 0.7s;
+    transition: opacity 0.3s 0.7s;
+}
+
+.cs-skin-underline ul span::before {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    -webkit-transform: translate3d(200%,0,0);
+    transform: translate3d(200%,0,0);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.cs-skin-underline.cs-active ul span,
+.cs-skin-underline.cs-active ul span::before {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.cs-skin-underline li:nth-child(5) span,
+.cs-skin-underline li:nth-child(5) span::before,
+.cs-skin-underline.cs-active li:first-child span,
+.cs-skin-underline.cs-active li:first-child span::before {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.cs-skin-underline li:nth-child(4) span,
+.cs-skin-underline li:nth-child(4) span::before,
+.cs-skin-underline.cs-active li:nth-child(2) span,
+.cs-skin-underline.cs-active li:nth-child(2) span::before {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.cs-skin-underline li:nth-child(3) span,
+.cs-skin-underline li:nth-child(3) span::before {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.cs-skin-underline li:nth-child(2) span,
+.cs-skin-underline li:nth-child(2) span::before,
+.cs-skin-underline.cs-active li:nth-child(4) span,
+.cs-skin-underline.cs-active li:nth-child(4) span::before {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.cs-skin-underline li:first-child span,
+.cs-skin-underline li:first-child span::before,
+.cs-skin-underline.cs-active li:nth-child(5) span,
+.cs-skin-underline.cs-active li:nth-child(5) span::before {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+} /* more items require more delay declarations */
+
+.cs-skin-underline .cs-options li span:hover,
+.cs-skin-underline .cs-options li.cs-focus span,
+.cs-skin-underline li.cs-selected span {
+    color: #566473;
+    background: transparent;
+}
+
+
+
+
+/*
+
+/////////////////////another
+
+
+*/
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/icomoon.eot?-rdnm34');
+    src:url('../fonts/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.woff?-rdnm34') format('woff'),
+    url('../fonts/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+    url('../fonts/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.cs-skin-rotate {
+    background: transparent;
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 300px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+@media screen and (max-width: 30em) {
+    div.cs-skin-rotate { font-size: 1em; width: 200px; }
+}
+
+.cs-skin-rotate > span,
+.cs-skin-rotate .cs-options li {
+    background: transparent;
+    -webkit-transform-origin: 50% 50% -200px;
+    transform-origin: 50% 50% -200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+@media screen and (max-width: 30em) {
+    .cs-skin-rotate > span,
+    .cs-skin-rotate .cs-options li {
+        -webkit-transform-origin: 50% 50% -100px;
+        transform-origin: 50% 50% -100px;
+    }
+}
+
+.cs-skin-rotate > span {
+    border: 1px dashed #c0c6c4;
+}
+
+.cs-skin-rotate.cs-active > span {
+    opacity: 0;
+    -webkit-transform: rotate3d(0,1,0,-90deg);
+    transform: rotate3d(0,1,0,-90deg);
+}
+
+.cs-skin-rotate > span::after,
+.cs-skin-rotate .cs-selected span::after {
+    font-family: 'icomoon';
+}
+
+.cs-skin-rotate > span::after,
+.cs-skin-rotate.cs-active > span::after {
+    content: '\e012';
+    -webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,-90deg);
+    transform: translate3d(0,-50%,0) rotate3d(0,0,1,-90deg);
+}
+
+.cs-skin-rotate ul span::after {
+    content: '';
+    opacity: 0;
+}
+
+.cs-skin-rotate .cs-selected span::after {
+    content: '\e00e';
+    font-size: 1.5em;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.cs-skin-rotate .cs-options {
+    background: transparent;
+    top: 0;
+    overflow: visible;
+    visibility: visible;
+    pointer-events: none;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.cs-skin-rotate .cs-options ul {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.cs-skin-rotate .cs-options li {
+    opacity: 0;
+    -webkit-transform: rotate3d(0,1,0,90deg);
+    transform: rotate3d(0,1,0,90deg);
+}
+
+.cs-skin-rotate.cs-active .cs-options li {
+    opacity: 1;
+    -webkit-transform: rotate3d(0,1,0,0deg);
+    transform: rotate3d(0,1,0,0deg);
+    pointer-events: auto;
+}
+
+.cs-skin-rotate .cs-options li:nth-child(2) {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.cs-skin-rotate .cs-options li:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.cs-skin-rotate .cs-options li:nth-child(4) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.cs-skin-rotate .cs-options li:nth-child(5) {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.cs-skin-rotate.cs-active .cs-options ul li {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.cs-skin-rotate .cs-options li span {
+    padding: 1em 0;
+}
+
+.cs-skin-rotate .cs-options li span:hover,
+.cs-skin-rotate .cs-options li.cs-focus span,
+.cs-skin-rotate .cs-selected span {
+    opacity: 0.8;
+    background: transparent;
+}
+
+
+
+
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+#signup h2{
+    text-align: center;
+    color: #faebd7;
+    font-weight: 300;
+    /*margin: 0 0 40px;*/
+    margin-top: 20px;
+}
+
+.center{
+    margin:0 auto;
+    position: relative;
+    left: 31%;
+
+}
+
+
+#end {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    list-style-type: none;
+}
+
+#end:focus {
+outline: none;
+}
+
+.myButton {
+    -moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+    -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background-color:#eae0c2;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+    background-color:#ccc2a6;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+/*
+
+asdfasfjagh;wgefw
+
+*/
+
